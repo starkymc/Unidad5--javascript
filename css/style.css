@@ -20,13 +20,18 @@
     padding: 8px;
 }
 
+#fechapago{
+    margin-right: 60px;
+    
+}
 
-#servicio{
-    margin-left: 100px;
+#form > div:nth-child(1) > label{
+    padding: 7px;
 }
 
 #monto{
-    margin-left: 100px;
+    margin-left: 0px;
+    margin-right: 30px;
 }
 
 input{
@@ -86,4 +91,17 @@ tr{
 
 #nuevo-pago{
     background-color: #b9b8b959;
+}
+
+#navbarNav > ul:nth-child(2){
+    
+    flex-direction: row;
+    margin-left: 400px;
+    display: block;
+    align-items: flex-start;
+    text-align: center;
+}
+
+body > div:nth-child(1) > nav{
+    width: 900px;
 }

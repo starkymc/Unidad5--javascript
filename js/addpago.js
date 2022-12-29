@@ -3,7 +3,7 @@
 
 
 const formTodo = document.getElementById("form");
-const fechavencimiento = document.getElementById("fechavencimiento");
+const fechapago = document.getElementById("fechapago");
 const usuario = document.getElementById("usuario");
 const servicio = document.getElementById("servicio");
 const monto = document.getElementById("monto");
@@ -11,7 +11,7 @@ const monto = document.getElementById("monto");
 formTodo.addEventListener("submit", async (event) => {
     event.preventDefault();
     const data = {
-        fechavencimiento: fechavencimiento.value,
+        fechapago: fechapago.value,
         usuario: usuario.value,
         servicio: servicio.value,
         monto: monto.value
