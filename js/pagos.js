@@ -27,6 +27,7 @@ function renderTasks(data) {
         <td>${task.servicio}</td>
         <td>${task.PaymentDate}</td>
         <td>S/ ${task.monto}</td>
+        <td><button onclick="deleteTodo()" class="btn btn-danger">Eliminar</button></td>
         </tr>
        `;
     });
