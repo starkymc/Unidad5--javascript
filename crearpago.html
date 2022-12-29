@@ -46,7 +46,7 @@
 
     <div class="container py-3 my-3" >
         <div id="nuevo-pago" class="card">
-          <div class="card-header">
+          <div class="card-header" style="background: cornflowerblue;">
             <h3>Añadir nuevo pago</h3>
           </div>
 
@@ -58,17 +58,32 @@
             </div>
           
             <div class="form-group-servicio">
-              <select class="form-select" name="servicio" id="servicio"></select>
-            <option value="">Elige un servicio</option>
-            </select>
+              <label for="status">Servicio</label>
+              <select class="form-control" id="servicio">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
               <p></p>
             </div>
 
-            <div class="form-group" >
+
+            <div class="form-group">
+              <label for="usuario">Usuario</label>
+              <select class="form-control" id="usuario">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
+              <p></p>
+            </div>
+
+            <!-- 
+              <div class="form-group" >
               <label for="usuario">Usuario</label>
               <input type="text" class="form-control" id="usuario" required >
             </div>
-
+          -->
             <div class="form-group">
               <label for="monto">Monto</label>
               <input type="number" class="form-control" id="monto" required step="0.01">
