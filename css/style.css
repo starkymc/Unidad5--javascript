@@ -1,0 +1,89 @@
+.form-group{
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 15px;
+    padding: 5px;
+    flex-direction: row;
+
+    margin-right: 80px;
+    margin-left: 40px;
+    border-radius: 10px;
+    
+
+    
+}
+.form-group-button{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+    padding: 8px;
+}
+
+
+#servicio{
+    margin-left: 100px;
+}
+
+#monto{
+    margin-left: 100px;
+}
+
+input{
+    width: 150px!important;
+}
+
+select{
+    width: 150px!important;
+}
+
+h3{
+    text-align: center;
+}
+
+table { 
+    border-collapse: separate; 
+    border-spacing: 0 10px; 
+    margin-top: -10px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+td {
+    
+    border-style: solid none;
+    padding: 10px;
+    background-color: cyan;
+}
+td:first-child {
+    border-left-style: solid;
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px;
+    
+}
+td:last-child {
+    border-right-style: solid;
+    border-bottom-right-radius: 10px; 
+    border-top-right-radius: 10px; 
+}
+
+tr{
+    background-color: whitesmoke;
+}
+
+#pagos-realizados{
+    background-color: #b9b8b959;
+
+}
+
+#pagos-vencidos{
+    background-color: #b9b8b959;
+}
+
+.container {
+    width: 500px;
+}
+
+#nuevo-pago{
+    background-color: #b9b8b959;
+}
